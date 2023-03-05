@@ -1,17 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Categories from './pages/Categories';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link,
-  createBrowserRouter,
-  RouterProvider,
   Routes,
-  BrowserRouter,
 } from "react-router-dom";
 import General from './pages/General';
 import Sports from './pages/Sports';
